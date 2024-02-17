@@ -10,7 +10,7 @@ import MenuButton from './MenuButton'
 const StyleHeader = styled(AppBar)({
     background: "#ffffff",
     height: "125px",
-    // boxShadow: "none"
+    boxShadow: "2px"
 })
 const LastButton = styled(Box)({
     display: "flex",
