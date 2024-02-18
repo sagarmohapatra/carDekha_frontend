@@ -15,7 +15,7 @@ const SearchContainer = styled(Box)({
 const InputAutocomplete = styled(Stack)({
     // paddingLeft: "60px",
     width: "100%",
-    height: "50%",
+    height: "40%",
     position: "relative"
 
 
@@ -41,7 +41,7 @@ const Search = () => {
                 />
             </InputAutocomplete>
             <SearchWrraper>
-                <SearchIcon  style={{marginTop:"18px",fontSize:"25px"}}/>
+                <SearchIcon  style={{marginTop:"18px",fontSize:"25px",marginLeft:"15px"}}/>
             </SearchWrraper>
         </SearchContainer>
     )
