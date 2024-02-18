@@ -6,10 +6,10 @@ import Buttons from './Buttons'
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
 import MenuButton from './MenuButton'
-
+import { Link } from 'react-router-dom'
 const StyleHeader = styled(AppBar)({
     background: "#ffffff",
-    height: "125px",
+    height: "120px",
     boxShadow: "2px"
 })
 const LastButton = styled(Box)({
@@ -41,8 +41,8 @@ const Header = () => {
     return (
         <StyleHeader>
             <Toolbar>
-                <Box style={{ lineHeight: "0" }}>
-                    <img src={Fimg} style={{ width: "175px", height: "175px" }} />
+                <Box style={{ lineHeight: "0" }} >
+                    <Link to="/"><img src={Fimg} style={{ width: "175px", height: "175px" }} alt='logo' /></Link>
                 </Box>
                 <Box>
                     <Search />
@@ -51,7 +51,7 @@ const Header = () => {
                 <LastButton>
                     <Buttons />
                     <Fevoright>
-                        <FavoriteBorderIcon />
+                        <Link to="/Fevorite"> <FavoriteBorderIcon /></Link>
 
                     </Fevoright>
                     <LoginButton>
@@ -62,7 +62,7 @@ const Header = () => {
                 </LastButton>
             </Toolbar>
 
-            <Divider style={{color:"black"}}/>
+            <Divider style={{ color: "black" }} />
             <MenuButton />
         </StyleHeader>
     )
