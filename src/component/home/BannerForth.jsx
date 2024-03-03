@@ -1,48 +1,39 @@
 import React from "react";
-import {
-  Card,
-  CardContent,
-  Typography,
-  Box,
-  Divider,
-  CardMedia,
-  Button,
-} from "@mui/material";
 
+import { Card, Typography, Box, CardMedia, Button } from "@mui/material";
+
+import styled from "@emotion/styled";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
-import { firstImg, secondImg } from "../constant/constant";
+import { forthImg } from "../constant/constant";
 
-
-import "react-multi-carousel/lib/styles.css";
-import Container from "@mui/material/Container";
-import styled from "@emotion/styled";
-
-import "react-multi-carousel/lib/styles.css";
-
-const Head = styled(Typography)({
-  marginBottom: "8px",
-  fontSize: "23px",
-  color: "black",
-  fontWeight: "500",
-});
-const Name = styled(Typography)({
-  fontSize: "16px",
-  lineHeight: "16px",
-  padding: "0 33px 0 0",
-});
+const responsive = {
+  desktop: {
+    breakpoint: { max: 3000, min: 1024 },
+    items: 4,
+  },
+  tablet: {
+    breakpoint: { max: 1024, min: 464 },
+    items: 2,
+  },
+  mobile: {
+    breakpoint: { max: 464, min: 0 },
+    items: 1,
+  },
+};
 
 const Rupe = styled(CurrencyRupeeIcon)({
   fontSize: "14px",
   marginTop: "1px",
 });
-const BannerScroll = () => {
+
+const BannerForth = () => {
   return (
     <div>
       <Box style={{ marginTop: "35px", marginBottom: "30px" }}>
         <Carousel responsive={responsive} swipeable={false} draggable={false}>
-          {secondImg.map((data) => (
+          {forthImg.map((data) => (
             <Card key={data.id} style={{ width: "275px" }}>
               <CardMedia
                 component="img"
@@ -90,4 +81,4 @@ const BannerScroll = () => {
   );
 };
 
-export default BannerScroll;
+export default BannerForth;
