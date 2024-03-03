@@ -6,10 +6,9 @@ const Home = () => {
   return (
     <Box style={{ marginTop: "121px" }}>
       <Poster />
-      {/* <Box style={{marginRight:"50px"}}> */}
-        <Banner />
-        </Box>
-    // </Box>
+
+      <Banner />
+    </Box>
   );
 };
 

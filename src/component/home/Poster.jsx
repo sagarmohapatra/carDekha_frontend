@@ -34,7 +34,7 @@ function MyFormControlLabel(props) {
 
 MyFormControlLabel.propTypes = {
     /**
-     * The value of the component.
+      * The value of the component.
      */
     // value: PropTypes.any,
 };
