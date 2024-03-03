@@ -12,7 +12,7 @@ import {
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
-import {brand } from "../constant/constant";
+import { brand } from "../constant/constant";
 import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
 import Container from "@mui/material/Container";
 import styled from "@emotion/styled";
@@ -32,13 +32,16 @@ const Name = styled(Button)({
   color: "black",
   textTransform: "none",
 });
-const News = styled(Button)({
-  fontSize: "18px",
-  lineHeight: "16px",
-  padding: "0 33px 0 0",
-  color: "black",
-  textTransform: "none",
-  fontWeight: "600",
+
+const Image = styled(CardMedia)({
+  // height: "90px",
+  // width: "90px",
+  // marginLeft:"50px",
+  // marginTop:"15px"
+  marginLeft: "auto",
+  marginRight: "auto",
+  width: "90%",
+  marginTop:"15px"
 });
 
 const responsive = {
@@ -55,8 +58,6 @@ const responsive = {
     items: 2,
   },
 };
-
-
 
 const Brand = () => {
   return (
@@ -78,14 +79,17 @@ const Brand = () => {
               draggable={false}
             >
               {brand.map((data) => (
-                <Card key={data.id} style={{ width: "275px" }}>
-                  <CardMedia
-                    component="img"
-                    style={{ height: "110px", width: "110px" }}
-                    src={data.url}
-                    alt="Paella dish"
-                  />
-                  <Box style={{marginLeft:"45px"}}>{data.name}</Box>
+                <Card
+                  key={data.id}
+                  style={{
+                    width: "190px",
+                    marginBottom: "5px",
+                    marginTop: "5px",
+                    height: "160px",
+                  }}
+                >
+                  <Image component="img" src={data.url} alt="Paella dish" />
+                  <Box style={{ marginLeft: "68px" }}>{data.name}</Box>
                 </Card>
               ))}
             </Carousel>
