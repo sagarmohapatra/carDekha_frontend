@@ -312,3 +312,16 @@ name:"Maruti"},
   
   {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/nissan.jpg",name:"Nissan"}
 ]
+
+export const visual=[
+  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64de1ec0af5db.jpg",name:"BYD Seagull Electric Hatchback Trademark Filed In India"},
+  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64db97cb7848b.jpg",name:"Check Out The Newly Unveiled Mahindra Thar.e And The Global Pik Up Concepts!"},
+  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64d79f61f3846.jpg",name:"A News Roundup Of Car Headlines This Week (Aug 7-11)"},
+  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64d63c4ca26db.jpg",name:"Maruti Ertiga vs Toyota Rumion: Top 5 Differences In Pictures"},
+  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64d4d8cd6942a.jpg",name:"7 Things To Know About The Maruti Ertiga-based Toyota Rumion MPV"},
+  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64d3857b1915c.jpg",name:"Hyundai Alcazar Adventure vs Tata Safari Adventure: Differences In Pics"},
+  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64d0e0a58fc5d.jpg",name:"Hyundai Creta And Alcazar Adventure Editions Launched: 7 Things To Know"},
+  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64cba80a9ebc3.jpg",name:"Maruti Jimny Or Mahindra Thar: Which One Makes You Wait Longer? "},
+  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64ca5c4bb4cb2.jpg",name:"Here’s How Spacious Honda Elevate’s Boot Is Compared To Its Rivals"},
+  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64c9f62ade49b.jpg",name:"Here's How Fuel-efficient The Citroen C3 Aircross Is Compared To Its Rivals"}
+]
