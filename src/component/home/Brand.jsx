@@ -18,6 +18,7 @@ import Container from "@mui/material/Container";
 import styled from "@emotion/styled";
 
 import "react-multi-carousel/lib/styles.css";
+import Visual from "./Visual";
 
 const Head = styled(Typography)({
   marginBottom: "8px",
@@ -111,6 +112,7 @@ const Brand = () => {
           </Box>
         </CardContent>
       </Card>
+      <Visual/>
     </div>
   );
 };
