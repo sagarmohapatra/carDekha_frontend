@@ -206,7 +206,7 @@ const Recomnded = () => {
                   <CardMedia
                     component="img"
                     style={{ height: "190px", width: "275px" }}
-                    src={data.url}
+                    src={data.url1}
                     alt="Paella dish"
                   />
                   <Box style={{ marginLeft: "15px" }}>

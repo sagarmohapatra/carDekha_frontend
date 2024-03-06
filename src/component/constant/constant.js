@@ -296,32 +296,155 @@ export const newly = [
     book: "Buy Now",
   },
 ];
-export const brand=[
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/maruti.jpg",
-name:"Maruti"},
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/tata.jpg",name:"Tata"},
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/kia.jpg",name:"Kia"},
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/toyota.jpg",name:"Toyota"},
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/hyundai.jpg",name:"Hyundai"},
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/mahindra.jpg",name:"Mahindra"},
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/honda.jpg",name:"Honda"},
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/mg.jpg",name:"Mg"},
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/skoda.jpg",name:"Skoda"},
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/jeep.jpg",name:"Jeep"},
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/renault.jpg",name:"Renault"},
-  
-  {url:"https://stimg.cardekho.com/pwa/img/brandLogo_168x84/nissan.jpg",name:"Nissan"}
-]
+export const brand = [
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/maruti.jpg",
+    name: "Maruti",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/tata.jpg",
+    name: "Tata",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/kia.jpg",
+    name: "Kia",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/toyota.jpg",
+    name: "Toyota",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/hyundai.jpg",
+    name: "Hyundai",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/mahindra.jpg",
+    name: "Mahindra",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/honda.jpg",
+    name: "Honda",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/mg.jpg",
+    name: "Mg",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/skoda.jpg",
+    name: "Skoda",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/jeep.jpg",
+    name: "Jeep",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/renault.jpg",
+    name: "Renault",
+  },
 
-export const visual=[
-  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64de1ec0af5db.jpg",name:"BYD Seagull Electric Hatchback Trademark Filed In India"},
-  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64db97cb7848b.jpg",name:"Check Out The Newly Unveiled Mahindra Thar.e And The Global Pik Up Concepts!"},
-  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64d79f61f3846.jpg",name:"A News Roundup Of Car Headlines This Week (Aug 7-11)"},
-  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64d63c4ca26db.jpg",name:"Maruti Ertiga vs Toyota Rumion: Top 5 Differences In Pictures"},
-  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64d4d8cd6942a.jpg",name:"7 Things To Know About The Maruti Ertiga-based Toyota Rumion MPV"},
-  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64d3857b1915c.jpg",name:"Hyundai Alcazar Adventure vs Tata Safari Adventure: Differences In Pics"},
-  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64d0e0a58fc5d.jpg",name:"Hyundai Creta And Alcazar Adventure Editions Launched: 7 Things To Know"},
-  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64cba80a9ebc3.jpg",name:"Maruti Jimny Or Mahindra Thar: Which One Makes You Wait Longer? "},
-  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64ca5c4bb4cb2.jpg",name:"Here’s How Spacious Honda Elevate’s Boot Is Compared To Its Rivals"},
-  {url:"https://stimg.cardekho.com/images/cms/webstory/webstory_64c9f62ade49b.jpg",name:"Here's How Fuel-efficient The Citroen C3 Aircross Is Compared To Its Rivals"}
-]
+  {
+    url: "https://stimg.cardekho.com/pwa/img/brandLogo_168x84/nissan.jpg",
+    name: "Nissan",
+  },
+];
+
+export const visual = [
+  {
+    url: "https://stimg.cardekho.com/images/cms/webstory/webstory_64de1ec0af5db.jpg",
+    name: "BYD Seagull Electric Hatchback Trademark Filed In India",
+  },
+  {
+    url: "https://stimg.cardekho.com/images/cms/webstory/webstory_64db97cb7848b.jpg",
+    name: "Check Out The Newly Unveiled Mahindra Thar.e And The Global Pik Up Concepts!",
+  },
+  {
+    url: "https://stimg.cardekho.com/images/cms/webstory/webstory_64d79f61f3846.jpg",
+    name: "A News Roundup Of Car Headlines This Week (Aug 7-11)",
+  },
+  {
+    url: "https://stimg.cardekho.com/images/cms/webstory/webstory_64d63c4ca26db.jpg",
+    name: "Maruti Ertiga vs Toyota Rumion: Top 5 Differences In Pictures",
+  },
+  {
+    url: "https://stimg.cardekho.com/images/cms/webstory/webstory_64d4d8cd6942a.jpg",
+    name: "7 Things To Know About The Maruti Ertiga-based Toyota Rumion MPV",
+  },
+  {
+    url: "https://stimg.cardekho.com/images/cms/webstory/webstory_64d3857b1915c.jpg",
+    name: "Hyundai Alcazar Adventure vs Tata Safari Adventure: Differences In Pics",
+  },
+  {
+    url: "https://stimg.cardekho.com/images/cms/webstory/webstory_64d0e0a58fc5d.jpg",
+    name: "Hyundai Creta And Alcazar Adventure Editions Launched: 7 Things To Know",
+  },
+  {
+    url: "https://stimg.cardekho.com/images/cms/webstory/webstory_64cba80a9ebc3.jpg",
+    name: "Maruti Jimny Or Mahindra Thar: Which One Makes You Wait Longer? ",
+  },
+  {
+    url: "https://stimg.cardekho.com/images/cms/webstory/webstory_64ca5c4bb4cb2.jpg",
+    name: "Here’s How Spacious Honda Elevate’s Boot Is Compared To Its Rivals",
+  },
+  {
+    url: "https://stimg.cardekho.com/images/cms/webstory/webstory_64c9f62ade49b.jpg",
+    name: "Here's How Fuel-efficient The Citroen C3 Aircross Is Compared To Its Rivals",
+  },
+];
+
+export const compare = [
+  {
+    url1: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Creta/8667/1705465218824/front-left-side-47.jpg",
+    url2: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Kia/Seltos-2023/8709/1688465684023/front-left-side-47.jpg",
+    brand1: "Hyundai",
+    brand2: "Kia",
+    model1: "Create",
+    model2: "Seltos",
+    price1: "11 - 20.15 Lakh *",
+    price2: "10.90 - 20.30 Lakh *",
+    compare:"Hyundai Create vs Kia Seltos"
+  },
+  {
+    url1: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon/11104/1697698470038/front-left-side-47.jpg",
+    url2: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Punch/10681/1691392713058/front-left-side-47.jpg",
+    brand1: "Tata",
+    brand2: "Tata",
+    model1: "Nexon",
+    model2: "Punch",
+    price1: "8.15 - 15.60 Lakh *",
+    price2: "6 - 10.20 Lakh *",
+    compare:"Tata Nexon vs Tata Punch"
+  },
+  {
+    url1: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/FRONX/9243/1697697928533/front-left-side-47.jpg",
+    url2: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/Baleno/10497/1697697558001/front-left-side-47.jpg",
+    brand1: "Maruti",
+    brand2: "Maruti",
+    model1: "Froxn",
+    model2: "Baleno",
+    price1: "7.51 - 13.04 Lakh *",
+    price2: "6.66 - 9.88 Lakh *",
+    compare:"Maruti Froxn vs Maruti Baleno"
+  },
+  {
+    url1: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon/11104/1697698470038/front-left-side-47.jpg",
+    url2: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Harrier/9368/1697532960290/front-left-side-47.jpg",
+    brand1: "Tata",
+    brand2: "Tata",
+    model1: "Safari",
+    model2: "Harrier",
+    price1: "7.51 - 13.04 Lakh *",
+    price2: "6.66 - 9.88 Lakh *",
+    compare:"Tata Safari vs Tata Punch"
+  },
+  {
+    url1: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Exter/10444/1697695572037/front-left-side-47.jpg",
+    url2: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Punch/10681/1691392713058/front-left-side-47.jpg",
+    brand1: "Hyundai",
+    brand2: "Tata",
+    model1: "Exter",
+    model2: "Punch",
+    price1: "7.51 - 13.04 Lakh *",
+    price2: "6.66 - 9.88 Lakh *",
+    compare:"Hyundai Exter vs Tata Punch"
+  },
+];
