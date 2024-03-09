@@ -401,7 +401,7 @@ export const compare = [
     model2: "Seltos",
     price1: "11 - 20.15 Lakh *",
     price2: "10.90 - 20.30 Lakh *",
-    compare:"Hyundai Create vs Kia Seltos"
+    compare: "Hyundai Create vs Kia Seltos",
   },
   {
     url1: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon/11104/1697698470038/front-left-side-47.jpg",
@@ -412,7 +412,7 @@ export const compare = [
     model2: "Punch",
     price1: "8.15 - 15.60 Lakh *",
     price2: "6 - 10.20 Lakh *",
-    compare:"Tata Nexon vs Tata Punch"
+    compare: "Tata Nexon vs Tata Punch",
   },
   {
     url1: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Maruti/FRONX/9243/1697697928533/front-left-side-47.jpg",
@@ -423,7 +423,7 @@ export const compare = [
     model2: "Baleno",
     price1: "7.51 - 13.04 Lakh *",
     price2: "6.66 - 9.88 Lakh *",
-    compare:"Maruti Froxn vs Maruti Baleno"
+    compare: "Maruti Froxn vs Maruti Baleno",
   },
   {
     url1: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Tata/Nexon/11104/1697698470038/front-left-side-47.jpg",
@@ -434,7 +434,7 @@ export const compare = [
     model2: "Harrier",
     price1: "7.51 - 13.04 Lakh *",
     price2: "6.66 - 9.88 Lakh *",
-    compare:"Tata Safari vs Tata Punch"
+    compare: "Tata Safari vs Tata Punch",
   },
   {
     url1: "https://stimg.cardekho.com/images/carexteriorimages/630x420/Hyundai/Exter/10444/1697695572037/front-left-side-47.jpg",
@@ -445,6 +445,46 @@ export const compare = [
     model2: "Punch",
     price1: "7.51 - 13.04 Lakh *",
     price2: "6.66 - 9.88 Lakh *",
-    compare:"Hyundai Exter vs Tata Punch"
+    compare: "Hyundai Exter vs Tata Punch",
   },
+];
+
+export const place = [
+  {
+    url: "ahmedabad.jpg",
+    name: "Ahmedabad",
+  },
+  {
+    url:"https://stimg.cardekho.com/pwa/img/IconCityNew/bangalore.svg",
+    name:"Bangalore"
+  },{
+    url:"https://stimg.cardekho.com/pwa/img/IconCityNew/chennai.svg",
+    name:"Chennai"
+  },{
+    url:"https://stimg.cardekho.com/pwa/img/IconCityNew/delhi-ncr.svg",
+    name:"Gurgaon"
+  },{
+    url:"https://stimg.cardekho.com/pwa/img/IconCityNew/hyderabad.svg",
+    name:"Hydrabad"
+  },{
+    url:"https://stimg.cardekho.com/pwa/img/IconCityNew/jaipur.svg",
+    name:"Jaipur"
+  },
+  {url:"https://stimg.cardekho.com/pwa/img/IconCityNew/kolkata.svg",
+name:"Kolkata"},
+{
+  url:"https://stimg.cardekho.com/pwa/img/IconCityNew/kolkata.svg",
+  name:"Mumbai"
+},
+{
+  url:"https://stimg.cardekho.com/pwa/img/IconCityNew/new-delhi.svg",
+  name:"Delhi"
+},
+{
+  url:"	https://stimg.cardekho.com/pwa/img/IconCityNew/noida.svg",
+  name:"Noida"
+},
+{url:"https://stimg.cardekho.com/pwa/img/IconCityNew/pune.svg",
+name:"Pune"}
+
 ];
