@@ -451,40 +451,55 @@ export const compare = [
 
 export const place = [
   {
-    url: "ahmedabad.jpg",
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/ahmedabad.svg",
     name: "Ahmedabad",
   },
   {
-    url:"https://stimg.cardekho.com/pwa/img/IconCityNew/bangalore.svg",
-    name:"Bangalore"
-  },{
-    url:"https://stimg.cardekho.com/pwa/img/IconCityNew/chennai.svg",
-    name:"Chennai"
-  },{
-    url:"https://stimg.cardekho.com/pwa/img/IconCityNew/delhi-ncr.svg",
-    name:"Gurgaon"
-  },{
-    url:"https://stimg.cardekho.com/pwa/img/IconCityNew/hyderabad.svg",
-    name:"Hydrabad"
-  },{
-    url:"https://stimg.cardekho.com/pwa/img/IconCityNew/jaipur.svg",
-    name:"Jaipur"
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/bangalore.svg",
+    name: "Bangalore",
   },
-  {url:"https://stimg.cardekho.com/pwa/img/IconCityNew/kolkata.svg",
-name:"Kolkata"},
-{
-  url:"https://stimg.cardekho.com/pwa/img/IconCityNew/kolkata.svg",
-  name:"Mumbai"
-},
-{
-  url:"https://stimg.cardekho.com/pwa/img/IconCityNew/new-delhi.svg",
-  name:"Delhi"
-},
-{
-  url:"	https://stimg.cardekho.com/pwa/img/IconCityNew/noida.svg",
-  name:"Noida"
-},
-{url:"https://stimg.cardekho.com/pwa/img/IconCityNew/pune.svg",
-name:"Pune"}
-
+  {
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/chennai.svg",
+    name: "Chennai",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/delhi-ncr.svg",
+    name: "Delhi",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/gurgaon.svg",
+    name: "Gurgaon",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/hyderabad.svg",
+    name: "Hydrabad",
+  }
+ 
 ];
+
+export const place1=[
+  {
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/jaipur.svg",
+    name: "Jaipur",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/kolkata.svg",
+    name: "Kolkata",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/kolkata.svg",
+    name: "Mumbai",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/new-delhi.svg",
+    name: "Delhi",
+  },
+  {
+    url: "	https://stimg.cardekho.com/pwa/img/IconCityNew/noida.svg",
+    name: "Noida",
+  },
+  {
+    url: "https://stimg.cardekho.com/pwa/img/IconCityNew/pune.svg",
+    name: "Pune",
+  },
+]
