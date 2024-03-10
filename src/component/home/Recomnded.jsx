@@ -11,7 +11,7 @@ import {
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import CurrencyRupeeIcon from "@mui/icons-material/CurrencyRupee";
-import { fifthImg, newly, brand } from "../constant/constant";
+import { fifthImg, newly, brand, firstImg, secondImg, thirdImg } from "../constant/constant";
 import ChevronRightRoundedIcon from "@mui/icons-material/ChevronRightRounded";
 import Container from "@mui/material/Container";
 import styled from "@emotion/styled";
@@ -62,6 +62,18 @@ const Rupe = styled(CurrencyRupeeIcon)({
 });
 
 const Recomnded = () => {
+  const [change, setchange] = useState(true);
+
+  const put = () => {
+    console.log("click");
+    setchange(true);
+  };
+  const put1 = () => {
+    setchange(false);
+  };
+  const put2 = () => {
+    setchange(true);
+  };
   return (
     <div>
       <Box style={{ marginTop: "40px" }}>
@@ -340,168 +352,181 @@ const Recomnded = () => {
       <Card style={{ marginTop: "40px" }}>
         <CardContent>
           <Head>Electric Cars</Head>
-
           <Box style={{ display: "flex", marginTop: "25px" }}>
-            <Name>Popular</Name>
+            <Name onClick={() => put()}>Popular</Name>
 
-            <Name>Upcoming</Name>
-            <Name>Latest</Name>
+            <Name onClick={() => put1()}>Upcoming</Name>
+            <Name onClick={() => put2()}>Latest</Name>
           </Box>
-
           <Box style={{ marginTop: "20px" }}>
             <Divider />
           </Box>
-
-          <Box style={{ marginTop: "35px", marginBottom: "30px" }}>
-            <Carousel
-              responsive={responsive}
-              swipeable={false}
-              draggable={false}
-            >
-              {fifthImg.map((data) => (
-                <Card key={data.id} style={{ width: "275px" }}>
-                  <CardMedia
-                    component="img"
-                    style={{ height: "190px", width: "275px" }}
-                    src={data.url}
-                    alt="Paella dish"
-                  />
-                  <Box style={{ marginLeft: "15px" }}>
-                    <Typography
-                      style={{
-                        fontSize: "15px",
-                        fontWeight: "400",
-                        marginTop: "15px",
-                      }}
-                    >
-                      {data.name}
-                    </Typography>
-                    <Typography style={{ fontSize: "15px", marginTop: "3px" }}>
-                      <Rupe />
-                      {data.price}
-                    </Typography>
-                    <Box>
-                      <Button
-                        variant="outlined"
-                        style={{
-                          fontSize: "15px",
-                          fontWeight: "500",
-                          lineHeight: "24px",
-                          marginTop: "15px",
-                          borderColor: "#f75d34",
-                          color: "#f75d34",
-                          textTransform: "none",
-                          width: "240px",
-                        }}
-                      >
-                        {data.offer}
-                      </Button>
-                    </Box>
-                  </Box>
-                </Card>
-              ))}
-            </Carousel>
-          </Box>
-          <Box style={{ marginTop: "35px", marginBottom: "30px" }}>
-            <Carousel
-              responsive={responsive}
-              swipeable={false}
-              draggable={false}
-            >
-              {fifthImg.map((data) => (
-                <Card key={data.id} style={{ width: "275px" }}>
-                  <CardMedia
-                    component="img"
-                    style={{ height: "190px", width: "275px" }}
-                    src={data.url}
-                    alt="Paella dish"
-                  />
-                  <Box style={{ marginLeft: "15px" }}>
-                    <Typography
-                      style={{
-                        fontSize: "15px",
-                        fontWeight: "400",
-                        marginTop: "15px",
-                      }}
-                    >
-                      {data.name}
-                    </Typography>
-                    <Typography style={{ fontSize: "15px", marginTop: "3px" }}>
-                      <Rupe />
-                      {data.price}
-                    </Typography>
-                    <Box>
-                      <Button
-                        variant="outlined"
-                        style={{
-                          fontSize: "15px",
-                          fontWeight: "500",
-                          lineHeight: "24px",
-                          marginTop: "15px",
-                          borderColor: "#f75d34",
-                          color: "#f75d34",
-                          textTransform: "none",
-                          width: "240px",
-                        }}
-                      >
-                        {data.offer}
-                      </Button>
-                    </Box>
-                  </Box>
-                </Card>
-              ))}
-            </Carousel>
-          </Box>
-          <Box style={{ marginTop: "35px", marginBottom: "30px" }}>
-            <Carousel
-              responsive={responsive}
-              swipeable={false}
-              draggable={false}
-            >
-              {fifthImg.map((data) => (
-                <Card key={data.id} style={{ width: "275px" }}>
-                  <CardMedia
-                    component="img"
-                    style={{ height: "190px", width: "275px" }}
-                    src={data.url}
-                    alt="Paella dish"
-                  />
-                  <Box style={{ marginLeft: "15px" }}>
-                    <Typography
-                      style={{
-                        fontSize: "15px",
-                        fontWeight: "400",
-                        marginTop: "15px",
-                      }}
-                    >
-                      {data.name}
-                    </Typography>
-                    <Typography style={{ fontSize: "15px", marginTop: "3px" }}>
-                      <Rupe />
-                      {data.price}
-                    </Typography>
-                    <Box>
-                      <Button
-                        variant="outlined"
-                        style={{
-                          fontSize: "15px",
-                          fontWeight: "500",
-                          lineHeight: "24px",
-                          marginTop: "15px",
-                          borderColor: "#f75d34",
-                          color: "#f75d34",
-                          textTransform: "none",
-                          width: "240px",
-                        }}
-                      >
-                        {data.offer}
-                      </Button>
-                    </Box>
-                  </Box>
-                </Card>
-              ))}
-            </Carousel>
-          </Box>
+          {change === true ? (
+            <>
+              <Box style={{ marginTop: "35px", marginBottom: "30px" }}>
+                <Carousel
+                  responsive={responsive}
+                  swipeable={false}
+                  draggable={false}
+                >
+                  {thirdImg.map((data) => (
+                    <Card key={data.id} style={{ width: "275px" }}>
+                      <CardMedia
+                        component="img"
+                        style={{ height: "190px", width: "275px" }}
+                        src={data.url}
+                        alt="Paella dish"
+                      />
+                      <Box style={{ marginLeft: "15px" }}>
+                        <Typography
+                          style={{
+                            fontSize: "15px",
+                            fontWeight: "400",
+                            marginTop: "15px",
+                          }}
+                        >
+                          {data.name}
+                        </Typography>
+                        <Typography
+                          style={{ fontSize: "15px", marginTop: "3px" }}
+                        >
+                          <Rupe />
+                          {data.price}
+                        </Typography>
+                        <Box>
+                          <Button
+                            variant="outlined"
+                            style={{
+                              fontSize: "15px",
+                              fontWeight: "500",
+                              lineHeight: "24px",
+                              marginTop: "15px",
+                              borderColor: "#f75d34",
+                              color: "#f75d34",
+                              textTransform: "none",
+                              width: "240px",
+                            }}
+                          >
+                            {data.offer}
+                          </Button>
+                        </Box>
+                      </Box>
+                    </Card>
+                  ))}
+                </Carousel>
+              </Box>
+            </>
+          ) : change === false ? (
+            <>
+              <Box style={{ marginTop: "35px", marginBottom: "30px" }}>
+                <Carousel
+                  responsive={responsive}
+                  swipeable={false}
+                  draggable={false}
+                >
+                  {fifthImg.map((data) => (
+                    <Card key={data.id} style={{ width: "275px" }}>
+                      <CardMedia
+                        component="img"
+                        style={{ height: "190px", width: "275px" }}
+                        src={data.url}
+                        alt="Paella dish"
+                      />
+                      <Box style={{ marginLeft: "15px" }}>
+                        <Typography
+                          style={{
+                            fontSize: "15px",
+                            fontWeight: "400",
+                            marginTop: "15px",
+                          }}
+                        >
+                          {data.name}
+                        </Typography>
+                        <Typography
+                          style={{ fontSize: "15px", marginTop: "3px" }}
+                        >
+                          <Rupe />
+                          {data.price}
+                        </Typography>
+                        <Box>
+                          <Button
+                            variant="outlined"
+                            style={{
+                              fontSize: "15px",
+                              fontWeight: "500",
+                              lineHeight: "24px",
+                              marginTop: "15px",
+                              borderColor: "#f75d34",
+                              color: "#f75d34",
+                              textTransform: "none",
+                              width: "240px",
+                            }}
+                          >
+                            {data.offer}
+                          </Button>
+                        </Box>
+                      </Box>
+                    </Card>
+                  ))}
+                </Carousel>
+              </Box>
+            </>
+          ) : change === true? (
+            <>
+              <Box style={{ marginTop: "35px", marginBottom: "30px" }}>
+                <Carousel
+                  responsive={responsive}
+                  swipeable={false}
+                  draggable={false}
+                >
+                  {secondImg.map((data) => (
+                    <Card key={data.id} style={{ width: "275px" }}>
+                      <CardMedia
+                        component="img"
+                        style={{ height: "190px", width: "275px" }}
+                        src={data.url}
+                        alt="Paella dish"
+                      />
+                      <Box style={{ marginLeft: "15px" }}>
+                        <Typography
+                          style={{
+                            fontSize: "15px",
+                            fontWeight: "400",
+                            marginTop: "15px",
+                          }}
+                        >
+                          {data.name}
+                        </Typography>
+                        <Typography
+                          style={{ fontSize: "15px", marginTop: "3px" }}
+                        >
+                          <Rupe />
+                          {data.price}
+                        </Typography>
+                        <Box>
+                          <Button
+                            variant="outlined"
+                            style={{
+                              fontSize: "15px",
+                              fontWeight: "500",
+                              lineHeight: "24px",
+                              marginTop: "15px",
+                              borderColor: "#f75d34",
+                              color: "#f75d34",
+                              textTransform: "none",
+                              width: "240px",
+                            }}
+                          >
+                            {data.offer}
+                          </Button>
+                        </Box>
+                      </Box>
+                    </Card>
+                  ))}
+                </Carousel>
+              </Box>
+            </>
+          ) : null}
           <Divider />
           <Box style={{ marginTop: "20px", marginLeft: "2px" }}>
             <Typography>
